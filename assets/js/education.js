@@ -5,67 +5,62 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    title: "Learn QA from Scratch ",
+    cardImage: "assets/images/education-page/udemy2.svg",
+    moocLink: "https://www.udemy.com/certificate/UC-7c294235-611c-4eef-84cc-9ecaa2fbee2e/",
   },
   {
-    title: "Cryptography",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    title: "Software Testing",
+    cardImage: "assets/images/education-page/udemy2.svg",
+    moocLink: "https://www.udemy.com/certificate/UC-USZ1H8NO/",
   },
   {
-    title: "Machine Learning",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    title: " Storytelling",
+    cardImage: "assets/images/education-page/udemy2.svg",
+    moocLink: "https://www.udemy.com/certificate/UC-f19ebe25-3d22-4468-bde5-e59a119d0f4c/",
   },
   {
-    title: "Introduction to HTML 5",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "The Art of Story Telling",
+    cardImage: "assets/images/education-page/udemy2.svg",
+    moocLink: "https://www.udemy.com/certificate/UC-8d093f78-1115-44b7-ad5a-578deeb21eae/",
   },
   {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "jQuery UI Interfaces",
+    cardImage: "assets/images/education-page/udemy2.svg",
+    moocLink: "https://www.udemy.com/certificate/UC-34ZZHWWE/",
   },
   {
-    title: "Javascript",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
+    title: "Facebook Chatbot",
+    cardImage: "assets/images/education-page/udemy2.svg",
+    moocLink: "https://www.udemy.com/certificate/UC-V7PVGU0L/",
   },
   {
-    title: "Bootstrap 4",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
+    title: "Start Coding Browser Extensions Using JavaScript!",
+    cardImage: "assets/images/education-page/udemy2.svg",
+    moocLink: "https://www.udemy.com/certificate/UC-22XC6YSZ/",
   },
   {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/edx.svg",
-    moocLink: "https://www.edx.org/learn/reactjs",
+    title: "Basic Bone Healing",
+    cardImage: "assets/images/education-page/udemy2.svg",
+    moocLink: "https://www.udemy.com/certificate/UC-G0URP79Y/",
   },
   {
-    title: "Intro to React Native",
+    title: "Google IT Support Professional Certificate",
     cardImage: "assets/images/education-page/coursera2.svg",
     moocLink:
-      "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
+      "https://www.credly.com/badges/6ad204ba-8118-45ec-927b-86680124d78a/linked_in",
   },
   {
-    title: "NodeJS, Express and MongoDB",
+    title: "How Google does Machine Learning",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
+    moocLink: "https://www.coursera.org/learn/google-machine-learning",
   },
   {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
+    title: "Launching into Machine Learning",
+    cardImage: "assets/images/education-page/coursera2.svg",
+    moocLink: "https://www.coursera.org/learn/launching-machine-learning",
   },
-  {
-    title: "Data Structures & Algorithms",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink:
-      "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
-  },
+
 ];
 
 const experience = [
@@ -112,21 +107,21 @@ const showCards = () => {
   let output = "";
   moocscards.forEach(
     ({ title, cardImage, moocLink }) =>
-      (output += `        
-        <div class="col-6 col-md-3 col-sm-4 column" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600" >  
+      (output += `
+        <div class="col-6 col-md-3 col-sm-4 column" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600" >
             <div class="card mb-3 mx-auto">
                <div class="content">
                   <div class="content-overlay"></div>
-                    <img src=${cardImage} class="card-img-top content-image">     
+                    <img src=${cardImage} class="card-img-top content-image">
                   <div class="content-details fadeIn-bottom">
-                    <a href="${moocLink}" target="_blank"><i class="fa fa-info-circle fa-2x" aria-hidden="true" style="color: white;"></i></a>                                   
+                    <a href="${moocLink}" target="_blank"><i class="fa fa-info-circle fa-2x" aria-hidden="true" style="color: white;"></i></a>
                   </div>
                 </div>
                 <div class="card-body">
                     <h6 class="mt-0 py-2 text-center font-weight-bold mooc-title" style="font-size:12px;">${title}</h6>
                 </div>
             </div>
-        </div>        
+        </div>
       `)
   );
   moocs.innerHTML = output;
@@ -158,8 +153,8 @@ const showCards1 = () => {
   let output = "";
   badgesection.forEach(
     ({ title, image, description }) =>
-      (output += `       
-      <div class="col-lg-4 col-md-6 p-2" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600"> 
+      (output += `
+      <div class="col-lg-4 col-md-6 p-2" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600">
         <img class="img-fluid d-block mb-3 mx-auto hvr-grow" src="${image}" alt="Card image cap" width="200">
           <div class="text-center font-weight-bolder" style="font-size: 1.3em;">${title}</div>
           <div class="text-center text-muted font-weight-bolder p-2">${description}</div>
