@@ -187,7 +187,7 @@ const mentor = [
     subtitle: " by Chetan Bhagat",
     image: "assets/images/experience-page/girl.jpg",
     desp: "Hi, I'm Radhika Mehta and I'm getting married this week. I work at Goldman Sachs, an investment bank. Thank you for reading my story. However, let me warn you.",
-  }; 
+  },
 ];
 
 const showCards3 = () => {
