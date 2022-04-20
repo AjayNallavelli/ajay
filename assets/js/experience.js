@@ -183,10 +183,10 @@ const mentor = [
     desp: "This inspiring tale provides a step-by-step approach to living with greater courage, balance, abundance, and joy. A wonderfully crafted fable, The Monk Who Sold His Ferrari tells the extraordinary story of Julian Mantle, a lawyer forced to confront the spiritual crisis of his out-of-balance life.",
   },
   {
-    title: "One Indian Girl",
-    subtitle: " by Chetan Bhagat",
-    image: "assets/images/experience-page/girl.jpg",
-    desp: "Hi, I'm Radhika Mehta and I'm getting married this week. I work at Goldman Sachs, an investment bank. Thank you for reading my story. However, let me warn you.",
+    title: "Tao of JeetKunoDo",
+    subtitle: " by Bruce Lee",
+    image: "assets/images/experience-page/jeetkunodo.jpg",
+    desp: "In 1970, Bruce sustained a rather sever injury to his back. His doctors ordered him to discontinue the practice of martial arts and to remain in bed to allow his back heal. This was probably the most trying and dispiriting time in Bruce's life. He stayed in bed, virtually flat on his back for six months, but he couldn't keep his mind from working - the result of which is this book",
   },
 ];
 
