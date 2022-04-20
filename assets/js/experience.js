@@ -167,7 +167,7 @@ const mentor = [
   {
     title: "Karna's Wife: The Outcast's Queen",
     subtitle: "by Kavita Kané",
-    image: "assets/images/experience-page/mission.png",
+    image: "assets/images/experience-page/karnaswife.jpg",
     desp: "Karna's Wife: The Outcast's Queen tells the extraordinary story of Karna, the unsung hero of the Mahabharata, through the eyes of his wife Uruvi, bringing his story to the reader from a unique perspective.",
   },
    {
