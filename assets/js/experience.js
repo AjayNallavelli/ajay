@@ -111,16 +111,16 @@ document.addEventListener("DOMContentLoaded", showCards);
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
   {
-    title: "The Uplift Project",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/uplift.png",
-    desp: "I would be responsible for guiding 100s of participants across the globe in their first steps towards Applied Data Science and building end-to-end machine learning projects.",
+    title: "Vivekananda: A Biography ",
+    subtitle: "by Nikhilananda",
+    image: "assets/images/experience-page/vivekananda.jpg",
+    desp: "An absorbing biography of Swami Vivekananda (1863 - 1902) that presents his vast knowledge of Eastern and Western culture, deep spiritual insight, brilliant conversation, broad human sympathy, and colorful personality.",
   },
   {
-    title: "ULHacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/ulhacks.png",
-    desp: "ULHacks is a 36 hour long hackathon organized with an aim to enable students to create a project which empowers learning.",
+    title: "The Secret ",
+    subtitle: " by Rhonda Byrne",
+    image: "assets/images/experience-page/secret.jpg",
+    desp: "The Secret is a 2006 self-help book by Rhonda Byrne, based on the earlier film of the same name.",
   },
   {
     title: "WaffleHacks",
