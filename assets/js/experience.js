@@ -159,10 +159,10 @@ const mentor = [
     desp: "Unwanted by his mother, snubbed by his blood-brothers and ridiculed by all, this is the story of the unsung hero of the Mahabharata. The graphic novel traces the life-journey of this brave and noble man who became victim to the twists of fate.",
   },
   {
-    title: "Astavakra Samhita ",
-    subtitle: "by Astavakra",
-    image: "assets/images/experience-page/astavakra.jpg",
-    desp: "The Astavakra Samhita or The Astavakra Gita, as it is sometimes called, is a great treatise on Advaita Vedanta that is ascribed to the sage Astavakra. Consists of a dialogue betweemn Astavkra and his disciple Janaka. A classic text on monistic Vedanta",
+    title: "Steve Jobs",
+    subtitle: "by Walter Isaacson",
+    image: "assests/images/experience-page/stevejobs.jpg",
+    desp: "Walter Isaacson's (The New Yorker) worldwide bestselling biography of Apple cofounder Steve Jobs. Based on more than forty interviews with Steve Jobs conducted over two years--as well as interviews with more than 100 family members, friends, adversaries, competitors, and colleagues",
   },
   {
     title: "Karna's Wife: The Outcast's Queen",
@@ -170,12 +170,12 @@ const mentor = [
     image: "assets/images/experience-page/mission.png",
     desp: "Karna's Wife: The Outcast's Queen tells the extraordinary story of Karna, the unsung hero of the Mahabharata, through the eyes of his wife Uruvi, bringing his story to the reader from a unique perspective.",
   },
-  {
-    title: "One Indian Girl",
-    subtitle: " by Chetan Bhagat",
-    image: "assets/images/experience-page/girl.jpg",
-    desp: "Hi, I'm Radhika Mehta and I'm getting married this week. I work at Goldman Sachs, an investment bank. Thank you for reading my story. However, let me warn you.",
-  };
+   {
+    title: "Nikola Tesla",
+    subtitle: " by Sean Patrick",
+    image: "assets/images/experience-page/tesla.jpg",
+    desp: "If you want to learn about one of history’s most fascinating minds and uncover some of his secrets of imagination—secrets that enabled him to invent machines light years ahead of his time and literally bring light to the world—then you want to read this book.",
+  },
   {
     title: "The Monk Who Sold His Ferrari",
     subtitle: " by Robin S. Sharma",
@@ -183,29 +183,11 @@ const mentor = [
     desp: "This inspiring tale provides a step-by-step approach to living with greater courage, balance, abundance, and joy. A wonderfully crafted fable, The Monk Who Sold His Ferrari tells the extraordinary story of Julian Mantle, a lawyer forced to confront the spiritual crisis of his out-of-balance life.",
   },
   {
-    title: "Nikola Tesla",
-    subtitle: " by Sean Patrick",
-    image: "assets/images/experience-page/tesla.jpg",
-    desp: "If you want to learn about one of history’s most fascinating minds and uncover some of his secrets of imagination—secrets that enabled him to invent machines light years ahead of his time and literally bring light to the world—then you want to read this book.",
-  },
-  {
-    title: "Revolution 2020: Love, Corruption, Ambition ",
-    subtitle: "by Chetan Bhagat",
-    image: "assets/images/experience-page/re2020.jpg",
-    desp: "nce upon a time, in small-town India, there lived two intelligent boys. One wanted to use his intelligence to make money. One wanted to use his intelligence to create a revolution. ",
-  },
-  {
-    title: "Five Point Someone: What Not to Do at IIT ",
-    subtitle: "by Chetan Bhagat",
-    image: "assets/images/experience-page/5pointsomeone.jpg",
-    desp: "Five Point Someone is a story about three friends in IIT who are unable to cope.The book starts with a disclaimer - This is not a book to teach you how to get into IIT or even how to live in college. In fact, it describes how screwed up things can get if you don’t think straight.",
-  },
-  {
-    title: "Steve Jobs",
-    subtitle: "by Walter Isaacson",
-    image: "assests/images/experience-page/stevejobs.jpg",
-    desp: "Walter Isaacson's "enthralling" (The New Yorker) worldwide bestselling biography of Apple cofounder Steve Jobs. Based on more than forty interviews with Steve Jobs conducted over two years--as well as interviews with more than 100 family members, friends, adversaries, competitors, and colleagues",
-  },
+    title: "One Indian Girl",
+    subtitle: " by Chetan Bhagat",
+    image: "assets/images/experience-page/girl.jpg",
+    desp: "Hi, I'm Radhika Mehta and I'm getting married this week. I work at Goldman Sachs, an investment bank. Thank you for reading my story. However, let me warn you.",
+  }; 
 ];
 
 const showCards3 = () => {
